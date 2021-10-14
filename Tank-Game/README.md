@@ -8,12 +8,18 @@ Make sure you are also up to date with "nodejs"
 Make sure you have "npm" installed by checking with this command "npm --version"
 Make sure you are also up to date with "npm"
 
-# Running the Game
+# Dependencies
 First install the dependencies. Run these commands
 
+# Install Commands
+
 => "npm init -y"
+
 => "npm install nodemon --save-dev"
+
 => "npm install @types/mathjs express sat socket.io tone"
+
+# Running the server
 
 To run this game, cd into "Tank-Game" using "cd /Tank-Game"
 
