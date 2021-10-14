@@ -1,0 +1,19 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.Game-Holder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game-Screen {
+    background-color: rgb(50, 50, 50);
+}

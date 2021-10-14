@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Canvas JS Game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js'></script>
+
+    <!-- cdn separate libraries -->
+    <script src='/math.js'></script>
+    <script src='/tone.js'></script>
+    <script src='/sat.js'></script>
+
+    <!-- asset library -->
+    <script src="/assets/create-asset.js"></script>
+
+    <!-- Physics Libraries -->
+    <script src='/physics/vector.js'></script>
+    <script src='/physics/animate.js'></script>
+    <script src='/physics/velocity.js'></script>
+    <script src='/physics/world.js'></script>
+    <script src='/physics/engine.js'></script>
+
+    <!-- Main -->
+    <script src='/keyboard.js'></script>
+    <script src='/socket.js'></script>
+    <script src='/main.js' defer></script>
+    
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/objects.css">
+</head>
+<body oncontextmenu="return false">
+    
+    <div class='Game-Holder'>
+        <canvas class='Game-Screen'></canvas>
+    </div>
+
+</body>
+</html>
